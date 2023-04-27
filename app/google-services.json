@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "896152396462",
+    "project_id": "usercampusapply-43c0c",
+    "storage_bucket": "usercampusapply-43c0c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896152396462:android:c84320fc24889a88dd433f",
+        "android_client_info": {
+          "package_name": "com.uniguides.userscampusapply"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896152396462-b74a1cgcn9sq1cj1b8qnoa2v243u4kft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoB0suAn3fvu0_4_oUh2Dryr1sZlGPQfQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "896152396462-b74a1cgcn9sq1cj1b8qnoa2v243u4kft.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

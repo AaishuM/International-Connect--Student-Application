@@ -1,0 +1,110 @@
+<resources>
+    <string name="msg_token_fmt">Welcome %s</string>
+    <string name="app_name">Student International connect</string>
+    <string name="study_name"></string>
+    <string name="mission_name"></string>
+    <string name="about_share">Share the app with Friends</string>
+    <string name="notification_title">From Admin:</string>
+    <string name="about_description">Our app is designed to assist students with Applying to universities in the United States and connecting the Administrators at the universities with the students.</string>
+
+    <!-- strings for dashboard -->
+
+    <!-- Categories -->
+    <string name="notifications">Notifications</string>
+    <string name="Universities">Universities</string>
+    <!-- Strings -->
+    <string name="search_text">Search States Universities</string>
+    <string name="university">Find University Of choice</string>
+    <string name="top_scholarships">The scholarships offering universities ranging between full scholarships to partial and some grants</string>
+    <string name="course">Courses </string>
+    <string name="Top_search_universities">Our Sponsors </string>
+    <string name="Top_search">Advertisement </string>
+
+
+    <!--menu bar -->
+    <string name="menu_name">Dashboard</string>
+    <!--bar 1 -->
+    <string name="menu_message">Fulfill your Academic career</string>
+    <string name="home_bar1">Home</string>
+    <string name="search_bar1">Student Support </string>
+    <string name="courses_bar1">All Courses</string>
+    <!-- bar 2 -->
+    <string name="sub_menu2">Profile</string>
+    <string name="login_menu2">Login</string>
+    <string name="profile_menu2">Profile</string>
+    <string name="logout_menu2">Logout</string>
+    <!-- bar3 -->
+    <string name="course1_menu3">Technology</string>
+    <string name="course2_menu3">Engineering</string>
+    <string name="course3_menu3">Sciences</string>
+    <string name="course4_menu3">Art</string>
+    <!-- login page -->
+    <string name="enter_name">Enter name</string>
+    <string name="enter_username">Enter username</string>
+    <string name="enter_user_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="signUp_not">Have no Account ? Sign Up</string>
+    <!-- signup page -->
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_upName">name</string>
+    <string name="re_enter_password">Re-enter Password</string>
+    <!--Register -->
+    <string name="register">Register</string>
+    <string name="register1">General Information</string>
+    <string name="register2">Home Country Information</string>
+    <string name="register3">Education Background(HighSchool)</string>
+    <string name="register4">Education Background(Undergraduate)</string>
+    <string name="register5">Education Background(Graduate)</string>
+
+    <string name="reg_name">Full Names</string>
+    <string name="reg_birth_date">Date of Birth</string>
+    <string name="reg_country">Country of Birth</string>
+    <string name="reg_place"> Place of Birth</string>
+    <string name="reg_country_residence">Country of residence</string>
+    <string name="reg_country_province">Province/State</string>
+    <string name="reg_country_email">Email</string>
+    <string name="reg_home_country">Country</string>
+    <string name="reg_contact_no">Contact</string>
+    <!-- Education Background -->
+    <string name="reg_high_school_school">School</string>
+    <string name="reg_high_school_location">Location(city/country)</string>
+    <string name="reg_high_school_course">Course</string>
+    <string name="reg_high_school_gpa">GPA</string>
+    <!-- Undergraduate -->
+    <string name="reg_undergraduate_school">School</string>
+    <string name="reg_undergraduate_location">Location(city/country)</string>
+    <string name="reg_undergraduate_course">Course</string>
+    <string name="reg_undergraduate_gpa">GPA</string>
+    <!-- Graduate -->
+    <string name="reg_graduate_school">School</string>
+    <string name="reg_graduate_location">Location(city/country)</string>
+    <string name="reg_graduate_course">Course</string>
+    <string name="reg_graduate_gpa">GPA</string>
+    <string name="submit">Start Submission</string>
+    <!--Registration form 2 -->
+    <string name="reg_menuName1">Upload Documents</string>
+    <string name="reg_sheet1">MarkSheets for HighSchool</string>
+    <string name="reg_sheet1.5">MarkSheets for Undergraduate</string>
+    <string name="reg_sheet2">Transcripts</string>
+    <string name="reg_sheet3">Degree Certificate</string>
+    <string name="reg_menuName2">Documents For University </string>
+    <string name="reg_sheet4">Resume</string>
+    <string name="reg_sheet5">GRE Score Report</string>
+    <string name="reg_sheet6">IELTS</string>
+    <string name="reg_sheet7">TOEFL</string>
+    <string name="reg_sheet8">Statement of Purpose</string>
+    <string name="reg_sheet9">Recommendation Letter1</string>
+    <string name="reg_sheet10">Recommendation Letter2</string>
+    <string name="reg_sheet11">Recommendation Letter3</string>
+    <string name="reg_menuName3">Emergency Information</string>
+    <string name="emergName">Name(Last/First/middle</string>
+    <string name="emergPhone">Phone No.</string>
+    <string name="emergEmail">Email</string>
+    <string name="emergAddress">Address</string>
+    <string name="reg_buttonFile">Choose Files</string>
+    <string name="submit_done">Pay</string>
+
+
+</resources>

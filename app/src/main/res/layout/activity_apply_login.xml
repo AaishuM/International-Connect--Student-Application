@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="730dp"
+    tools:context=".Commons.LoginSignup.Login"
+    android:background="@drawable/bkg1"
+    android:padding="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Student International Login"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="26sp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"/>
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="80dp"
+                android:src="@drawable/stud3"
+                android:layout_marginTop="20dp"
+                android:maxHeight="7dp">
+            </ImageView>
+
+
+
+
+        </RelativeLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="490dp"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="323.5dp"
+                android:layout_height="wrap_content"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:hint="@string/enter_name"
+                app:hintTextColor="@color/black"
+                app:boxStrokeColor="@color/black"
+                app:boxStrokeWidthFocused="4dp"
+                app:startIconDrawable="@drawable/user_name_icon"
+                app:startIconTint="@color/black"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/black"
+                android:layout_marginStart="25dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/login_Username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:inputType="text"
+                    android:textColorHint="@color/grey" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/password_layout"
+                android:layout_width="323.5dp"
+                android:layout_height="wrap_content"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:hint="@string/enter_password"
+                app:hintTextColor="@color/black"
+                app:boxStrokeColor="@color/black"
+                app:boxStrokeWidthFocused="4dp"
+                app:startIconDrawable="@drawable/password_icon"
+                app:startIconTint="@color/black"
+                app:endIconMode="password_toggle"
+                app:endIconTint="@color/black"
+                android:layout_marginStart="21dp"
+                android:layout_marginEnd="25dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/login_password"
+                    android:layout_width="330dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:inputType="textPassword"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/grey"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+                <CheckBox
+                    android:id="@+id/checkbox1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+                    android:text="@string/remember_me"
+                    android:buttonTint="@color/black"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:layout_marginStart="25dp"/>
+
+                <Button
+                    android:id="@+id/forget_pass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:onClick="ForgotPass"
+                    android:layout_marginEnd="40dp"
+                    android:background="#00000000"
+                    android:text="@string/forget_password"
+                    android:textColor="#000000"
+                    tools:ignore="RelativeOverlap" />
+
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/myRateText"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="12dp"
+                android:textSize="20sp"
+                android:layout_marginLeft="70dp"
+                android:text="How do you like our app"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:layout_below="@+id/checkbox1"/>
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_marginStart="0dp"
+                android:backgroundTint="@color/card3"
+                android:layout_below="@+id/myRateText"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:numStars="5"
+                android:stepSize="0.5" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+
+
+                <Button
+                    android:id="@+id/login_button"
+                    android:layout_width="250dp"
+                    android:layout_marginStart="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="5dp"
+                    android:backgroundTint="@color/blue"
+                    android:text="@string/login_menu2"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    app:cornerRadius = "20dp"
+                    tools:ignore="VisualLintButtonSize" />
+
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/signUp_redirect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/signUp_not"
+                android:textSize="25sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="40dp"
+                android:textColor="@color/black"/>
+            
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

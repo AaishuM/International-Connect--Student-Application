@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="5dp"
+    android:layout_margin="2dp">
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="210dp"
+        android:background="@drawable/bkg1"
+        android:padding="10dp">
+       <!--android:orientation="vertical"-->
+
+        <ImageView
+            android:id="@+id/mv_image"
+            android:layout_width="100dp"
+            android:layout_height="140dp"
+            android:src="@drawable/university1"
+            android:scaleType="centerCrop" />
+        <TextView
+            android:id="@+id/mv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IOWA STATE UNIVERSITY"
+            android:layout_toRightOf="@id/mv_image"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <RatingBar
+            android:id="@+id/mv_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="4.0"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_below="@id/mv_title"
+            android:layout_toRightOf="@id/mv_image"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/mv_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="Being one of the universities offering International students scholarships"
+            android:layout_below="@id/mv_rating"
+            android:layout_toRightOf="@id/mv_image"
+            android:padding="10dp"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

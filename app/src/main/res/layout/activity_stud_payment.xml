@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bkg1"
+    tools:context=".User.StudPayment">
+
+    <!-- Title bar -->
+    <RelativeLayout
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/blue">
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Admission Fee Payment"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <!-- Admission fee amount -->
+    <TextView
+        android:id="@+id/admission_fee_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="32dp"
+        android:text="Admission Fee Amount:"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/admission_fee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/admission_fee_amount"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@+id/admission_fee_amount"
+        android:textColor="@color/black"
+        android:text="$500"
+        android:textSize="18sp" />
+
+    <!-- Payment methods -->
+    <TextView
+        android:id="@+id/payment_methods_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/admission_fee_amount"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="32dp"
+        android:text="Payment Methods:"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/payment_method_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/payment_methods_title"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="32dp">
+
+        <RadioButton
+            android:id="@+id/credit_card_option"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Credit Card" />
+
+        <RadioButton
+            android:id="@+id/debit_card_option"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Debit Card"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/paypal_option"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paypal" />
+
+    </RadioGroup>
+
+    <!-- Payment form fields -->
+    <EditText
+        android:id="@+id/card_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/payment_method_group"
+        android:layout_marginTop="32dp"
+        android:layout_marginHorizontal="32dp"
+        android:hint="Card Number" />
+
+    <LinearLayout
+        android:id="@+id/exp_date_and_cvv_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/card_number"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Expiration Date"
+            android:textSize="14sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="CVV"
+            android:textSize="14sp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <!-- Expiration date and CVV fields -->
+    <LinearLayout
+        android:id="@+id/exp_date_and_cvv_fields_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exp_date_and_cvv_layout"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp">
+
+        <EditText
+            android:id="@+id/exp_date_edit_text"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="MM/YY"
+            android:inputType="number"
+            android:padding="8dp"
+            android:textColorHint="@color/card1"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/cvv_edit_text"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="CVV"
+            android:inputType="numberPassword"
+            android:padding="8dp"
+            android:textColorHint="@color/card1"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!-- Payment button -->
+    <Button
+        android:id="@+id/payment_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pay"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:background="@drawable/rounded_button"
+        android:layout_below="@+id/exp_date_and_cvv_fields_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:padding="16dp" />
+</RelativeLayout>

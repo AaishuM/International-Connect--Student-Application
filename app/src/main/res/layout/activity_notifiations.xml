@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".User.Notifiations"
+    android:background="@drawable/bkg1">
+
+    <TextView
+        android:id="@+id/navpage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Notifications Page"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/messageTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_below="@+id/navpage"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <TextView
+        android:layout_below="@+id/navpage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/notification_text"
+        android:textSize="24sp"
+        android:textColorHint="@color/black"
+        android:gravity="center"
+        android:text="No Messages Available Currently"
+        android:textColor="@color/black">
+    </TextView>
+
+</RelativeLayout>
+
+<!--<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User.Notifiations">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/notification_text"
+        android:textSize="20sp"
+        android:textColor="@color/black">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Notifications Page"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <ListView
+            android:id="@+id/myListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="7dp">
+
+        </ListView>
+
+
+    </RelativeLayout>-->
+

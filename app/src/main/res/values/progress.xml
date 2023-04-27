@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <string name="status_1_date">2023-04-01</string>
+        <string name="status_1_message">Started the application process.</string>
+        <string name="status_2_date">2023-04-05</string>
+        <string name="status_2_message">Submitted the application form.</string>
+        <string name="status_3_date">2023-04-10</string>
+        <string name="status_3_message">Received an email confirmation from the university.</string>
+        <string name="status_4_date">2023-04-15</string>
+        <string name="status_4_message">Scheduled an interview with the admissions committee.</string>
+        <string name="status_5_date">2023-04-20</string>
+        <string name="status_5_message">Successfully completed the interview.</string>
+    <string name="progress_data">
+        <progress_status date="2023-04-01" message="Started the process"/>
+        <progress_status date="2023-04-04" message="Completed task 1"/>
+        <progress_status date="2023-04-07" message="Completed task 2"/>
+        <progress_status date="2023-04-10" message="Completed task 3"/>
+        <progress_status date="2023-04-13" message="Completed task 4"/>
+        <progress_status date="2023-04-16" message="Completed task 5"/>
+        <progress_status date="2023-04-20" message="Completed the process"/>
+    </string>
+
+    </resources>
+

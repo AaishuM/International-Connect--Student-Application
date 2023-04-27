@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Commons.LoginSignup.RegisterForm2"
+    android:background="@drawable/bkg1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/upload_doc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reg_menuName1"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:fontFamily="sans-serif-black"
+            android:textAllCaps="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/file1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="@string/reg_sheet1"
+                android:layout_marginTop="90dp"
+                android:layout_marginRight="90dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_gravity="center">
+            </TextView>
+           <!-- <Button
+                android:id="@+id/choose1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="899dp"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@+id/file1"
+                android:layout_alignParentLeft="true"
+                android:backgroundTint="@color/black"
+                android:text="@string/reg_buttonFile">
+            </Button>
+            <Button
+                android:id="@+id/choose2"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/file1"
+                android:layout_marginTop="900dp"
+                android:layout_marginStart="20dp"
+                android:layout_toEndOf="@id/choose1"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/black"
+                android:text="@string/reg_menuName1">
+            </Button>-->
+            <!--<Button
+                android:id="@+id/choose3"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="5dp"
+                android:layout_below="@id/file1"
+                android:layout_toEndOf="@+id/choose2"
+                android:backgroundTint="@color/black"
+                android:text="@string/reg_buttonFile">
+            </Button>-->
+            <TextView
+                android:id="@+id/file2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="@string/reg_sheet1.5"
+                android:layout_below="@+id/file1"
+                android:layout_marginTop="100dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_gravity="center">
+            </TextView>
+
+            <!--<Button
+                android:id="@+id/choose4"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/file2"
+                android:layout_toEndOf="@+id/file1"
+                android:backgroundTint="@color/black"
+                android:text="@string/reg_buttonFile">
+
+            </Button>
+
+            <Button
+                android:id="@+id/choose5"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/file2"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="148dp"
+                android:layout_toEndOf="@+id/choose4"
+                android:backgroundTint="@color/black"
+                android:text="@string/reg_buttonFile"></Button>
+
+            <Button
+                android:id="@+id/choose6"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/file2"
+                android:layout_toEndOf="@+id/choose5"
+                android:backgroundTint="@color/black"
+                android:text="@string/reg_buttonFile">
+            </Button>-->
+           <!-- Button
+                android:id="@+id/choose7"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/file2"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toEndOf="@+id/choose6"
+                android:layout_alignParentRight="true"
+                android:backgroundTint="@color/black"
+                android:text="@string/reg_buttonFile"
+            </Button>-->
+            <TextView
+                android:id="@+id/file3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="@string/reg_sheet2"
+                android:layout_below="@+id/file2"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_gravity="center">
+            </TextView>
+
+           <!-- <Button
+                android:id="@+id/choose8"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_below="@+id/file2"
+                android:layout_marginBottom="10dp"
+                android:layout_toEndOf="@+id/file3"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="150dp"
+                android:backgroundTint="@color/black"
+                android:text="@string/reg_buttonFile">
+            </Button>
+            <Button
+                android:id="@+id/choose9"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/choose8"
+                android:layout_toEndOf="@+id/file4"
+                android:layout_marginStart="10dp"
+                android:backgroundTint="@color/black"
+                android:text="@string/reg_buttonFile">
+            </Button>-->
+            <TextView
+                android:id="@+id/file4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="@string/reg_sheet3"
+                android:layout_below="@+id/file3"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_gravity="center">
+            </TextView>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp">
+            <TextView
+                android:id="@+id/upload_docs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reg_menuName2"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-black"
+                android:textAllCaps="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:id="@+id/docs1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="@string/reg_sheet4"
+                android:layout_marginTop="90dp"
+                android:layout_marginRight="90dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_gravity="center">
+            </TextView>
+            <!--<Button
+                android:id="@+id/choosedoc1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="75dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toEndOf="@+id/docs1"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/black"
+                android:text="@string/reg_buttonFile">
+            </Button>-->
+
+            <TextView
+                android:id="@+id/docs2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="@string/reg_sheet5"
+                android:layout_below="@+id/docs1"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="90dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_gravity="center">
+            </TextView>
+            <!--<Button
+                android:id="@+id/choosedoc2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/choosedoc1"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="180dp"
+                android:layout_toEndOf="@+id/docs2"
+                android:layout_alignParentLeft="true"
+                android:backgroundTint="@color/black"
+                android:text="@string/reg_buttonFile">
+            </Button>-->
+
+            <TextView
+                android:id="@+id/docs3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="@string/reg_sheet6"
+                android:layout_below="@id/docs2"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="90dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_gravity="center">
+            </TextView>
+           <!-- <Button
+                android:id="@+id/choosedoc3"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/choosedoc2"
+                android:layout_marginStart="180dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toEndOf="@+id/docs1"
+                android:layout_alignParentLeft="true"
+                android:backgroundTint="@color/black"
+                android:text="@string/reg_buttonFile">
+            </Button>-->
+
+            <TextView
+                android:id="@+id/docs4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="@string/reg_sheet7"
+                android:layout_below="@id/docs3"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="90dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_gravity="center">
+            </TextView>
+           <!-- <Button
+                android:id="@+id/choosedoc4"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/choosedoc3"
+                android:layout_marginStart="180dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toEndOf="@+id/docs1"
+                android:layout_alignParentLeft="true"
+                android:backgroundTint="@color/black"
+                android:text="@string/reg_buttonFile">
+            </Button>-->
+
+            <TextView
+                android:id="@+id/docs5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="@string/reg_sheet8"
+                android:layout_below="@id/docs4"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="90dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_gravity="center">
+            </TextView>
+           <!-- <Button
+                android:id="@+id/choosedoc5"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/choosedoc4"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="210dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toEndOf="@+id/docs5"
+                android:layout_alignParentLeft="true"
+                android:backgroundTint="@color/black"
+                android:text="@string/reg_buttonFile">
+            </Button>-->
+
+            <TextView
+                android:id="@+id/docs6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="@string/reg_sheet9"
+                android:layout_below="@id/docs5"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="90dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_gravity="center">
+            </TextView>
+           <!-- <Button
+                android:id="@+id/choosedoc6"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/choosedoc5"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="210dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toEndOf="@+id/docs6"
+                android:layout_alignParentLeft="true"
+                android:backgroundTint="@color/black"
+                android:text="@string/reg_buttonFile">
+            </Button>-->
+            <TextView
+                android:id="@+id/docs7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="@string/reg_sheet10"
+                android:layout_below="@id/docs6"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="90dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_gravity="center">
+            </TextView>
+           <!-- <Button
+                android:id="@+id/choosedoc7"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/choosedoc6"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="230dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toEndOf="@+id/docs7"
+                android:layout_alignParentLeft="true"
+                android:backgroundTint="@color/black"
+                android:text="@string/reg_buttonFile">
+            </Button>-->
+            <TextView
+                android:id="@+id/docs8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="@string/reg_sheet11"
+                android:layout_below="@id/docs7"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="90dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_gravity="center">
+            </TextView>
+           <!-- <Button
+                android:id="@+id/choosedoc8"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/choosedoc7"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="230dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toEndOf="@+id/docs8"
+                android:layout_alignParentLeft="true"
+                android:backgroundTint="@color/black"
+                android:text="@string/reg_buttonFile">
+               </Button>-->
+            <Button
+                android:id="@+id/RegSubmission"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_below="@id/docs4"
+                android:layout_marginTop="370dp"
+                android:background="@color/black"
+                android:text="@string/submit"
+                android:textColor="@color/blue" />
+
+        </RelativeLayout>
+
+       <!-- <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="438dp"
+            android:layout_marginTop="1150dp">
+
+            <TextView
+                android:id="@+id/upload_docsf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/reg_menuName2"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="323.5dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="50dp"
+                android:hint="@string/emergName"
+                app:boxStrokeColor="@color/black"
+                app:boxStrokeWidthFocused="4dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/black"
+                app:hintTextColor="@color/black"
+                app:startIconDrawable="@drawable/user_name_icon"
+                app:startIconTint="@color/white">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/register_Username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:inputType="text"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="323.5dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="120dp"
+                android:hint="@string/emergPhone"
+                app:boxStrokeColor="@color/black"
+                app:boxStrokeWidthFocused="4dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/black"
+                app:hintTextColor="@color/black"
+                app:startIconDrawable="@drawable/user_name_icon"
+                app:startIconTint="@color/white">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/register_Phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:inputType="phone"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="323.5dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="200dp"
+                android:hint="@string/emergEmail"
+                app:boxStrokeColor="@color/black"
+                app:boxStrokeWidthFocused="4dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/black"
+                app:hintTextColor="@color/black"
+                app:startIconDrawable="@drawable/email_icon1"
+                app:startIconTint="@color/white">
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/register_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="323.5dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="280dp"
+                android:hint="@string/emergAddress"
+                app:boxStrokeColor="@color/black"
+                app:boxStrokeWidthFocused="4dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/black"
+                app:hintTextColor="@color/black"
+                app:startIconDrawable="@drawable/user_name_icon"
+                app:startIconTint="@color/white">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/register_Address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:inputType="textPostalAddress"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/RegSubmission"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="370dp"
+                android:background="@color/black"
+                android:text="@string/submit"
+                android:textColor="@color/white" />
+
+
+        </RelativeLayout>-->
+
+    </RelativeLayout>
+    </ScrollView>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

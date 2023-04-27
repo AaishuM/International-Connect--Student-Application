@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".User.TrackProgress"
+    android:background="@drawable/bkg1">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="29sp"
+        android:layout_gravity="center_horizontal"
+        >
+
+    </TextView>
+
+<!-- Profile Picture -->
+<ImageView
+    android:id="@+id/profile_picture"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:src="@drawable/image1"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginBottom="16dp"/>
+
+<!-- Student Name -->
+<TextView
+    android:id="@+id/student_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:textSize="24sp"
+    android:textStyle="bold"
+    android:gravity="center"/>
+
+<!-- Student ID -->
+<TextView
+    android:id="@+id/student_progress"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Days:1"
+    android:textSize="16sp"
+    android:textStyle="italic"
+    android:gravity="center"/>
+
+<!-- Student Major -->
+<TextView
+    android:id="@+id/student_major"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Major: "
+    android:textSize="18sp"
+    android:padding="8dp"/>
+
+<!-- Student Email -->
+<TextView
+    android:id="@+id/student_email"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Email: "
+    android:textSize="18sp"
+    android:padding="8dp"/>
+
+<!-- Student GPA -->
+<TextView
+    android:id="@+id/student_gpa"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="GPA:"
+    android:textSize="18sp"
+    android:padding="8dp"/>
+
+    <Button
+        android:id="@+id/refresh"
+        android:layout_width="250dp"
+        android:layout_marginStart="0dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/blue"
+        android:text="Refresh"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        app:cornerRadius = "20dp"
+        tools:ignore="VisualLintButtonSize" />
+
+</LinearLayout>
+
+
